@@ -15,7 +15,7 @@ if not os.path.exists('chain_pat'+str(p_number)+'_incretins'):
     os.makedirs('chain_pat'+str(p_number)+'_incretins')
 
 
-book_ogtt = open_workbook('Datos_para_CIMAT.xlsx')
+book_ogtt = open_workbook('Datos_OGTT.xlsx')
 sheet_ogtt = book_ogtt.sheet_by_index(0)
 
 
