@@ -22,7 +22,7 @@ sheet_ogtt = book_ogtt.sheet_by_index(0)
 if p_number == 0:
     noisy_data = np.array([90.0,125.0,65.0,115.0,130.0])
 else:
-    noisy_data = sheet_ogtt.row_values(p_number,4,9)
+    noisy_data = sheet_ogtt.row_values(p_number,2,7)
 
 t_data = np.array([0.0,0.5,1.0,1.5,2.0])
 time2 = np.linspace(0.0,2.0,1000)
